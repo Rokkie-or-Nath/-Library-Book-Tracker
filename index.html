@@ -28,17 +28,35 @@
                 <h3>Read Free Library Books Online</h3>
                 <p>Access thousands of books from our digital collection anytime, anywhere</p>
             </div>
-            <div class="feature-card">
+            <div class="feature-card" onclick="showCalendar()">
                 <div class="feature-icon">🎯</div>
                 <h3>Set a Yearly Reading Goal</h3>
                 <p>Track your progress and stay motivated to reach your reading targets</p>
             </div>
-            <div class="feature-card">
+            <div class="feature-card" onclick="showFavorites()">
                 <div class="feature-icon">⭐</div>
                 <h3>Keep Track of your Favorite Books</h3>
                 <p>Create lists and organize your reading collection with ease</p>
             </div>
         </section>
+    </div>
+
+    <div class="calendar-modal" id="calendarModal">
+        <div class="calendar-content">
+            <span class="close-btn" onclick="closeCalendar()">×</span>
+            <h2>Set Your Reading Goal</h2>
+            <input type="date" id="goalDate" class="date-input">
+            <input type="number" id="goalBooks" placeholder="Number of books" class="goal-input">
+            <button class="save-btn" onclick="saveGoal()">Save Goal</button>
+        </div>
+    </div>
+
+    <div class="calendar-modal" id="favoritesModal">
+        <div class="calendar-content">
+            <span class="close-btn" onclick="closeFavorites()">×</span>
+            <h2>Your Favorite Books</h2>
+            <div id="favoritesList" class="favorites-list"></div>
+        </div>
     </div>
 
     <script src="script.js"></script>
