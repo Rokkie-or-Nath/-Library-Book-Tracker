@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu-trigger">⋮</div>
+    
+    <div class="sidebar">
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search books..." oninput="searchBooks()">
+            <span class="search-icon">🔍</span>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h1>Welcome to Open Library</h1>
+        </header>
+
+        <section class="features">
+            <div class="feature-card">
+                <div class="feature-icon">📖</div>
+                <h3>Read Free Library Books Online</h3>
+                <p>Access thousands of books from our digital collection anytime, anywhere</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>Set a Yearly Reading Goal</h3>
+                <p>Track your progress and stay motivated to reach your reading targets</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⭐</div>
+                <h3>Keep Track of your Favorite Books</h3>
+                <p>Create lists and organize your reading collection with ease</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
