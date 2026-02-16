@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In - Library Book Tracker</title>
+   <title>Sign In - Library Book Tracker</title>
     <link rel="stylesheet" href="sign-in.css">
 </head>
 <body>
@@ -67,16 +67,6 @@
                         <option value="librarian">Librarian</option>
                         <option value="admin">Admin</option>
                     </select>
-                </div>
-                
-                <div class="form-group">
-                    <label>Contact Number</label>
-                    <input type="tel" id="contact" placeholder="Enter your contact number" required>
-                </div>
-                
-                <div class="form-group">
-                    <label>Section</label>
-                    <input type="text" id="section" placeholder="Enter your section" required>
                 </div>
                 
                 <button type="submit" class="submit-btn">Create Account</button>

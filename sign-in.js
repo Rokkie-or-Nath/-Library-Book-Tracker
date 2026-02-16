@@ -46,9 +46,7 @@ document.getElementById('signupForm').addEventListener('submit', function(e) {
         userId: document.getElementById('userId').value,
         email: document.getElementById('email').value,
         password: document.getElementById('password').value,
-        role: document.getElementById('role').value,
-        contact: document.getElementById('contact').value,
-        section: document.getElementById('section').value
+        role: document.getElementById('role').value
     };
     
     console.log('Create Account:', formData);
