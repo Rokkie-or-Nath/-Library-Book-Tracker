@@ -9,7 +9,4 @@ FEATURES
 -Update Book Details – Edit book information when necessary.
 -User-Friendly UI – Easy-to-navigate interface for all users.
 
-Team EduCore
-Nathaniel Roque – Project Manager & Developer
-Drew Perey - System Analyst & Developer
-Nesia Adao - Tester & Developer
+
