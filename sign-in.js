@@ -35,7 +35,7 @@ document.getElementById('signinForm').addEventListener('submit', function(e) {
     
     console.log('Sign In:', { email, password });
     alert('Sign in successful! Welcome back!');
-    window.location.href = 'index.html';
+    window.location.href = 'index.php';
 });
 
 document.getElementById('signupForm').addEventListener('submit', function(e) {
@@ -51,5 +51,5 @@ document.getElementById('signupForm').addEventListener('submit', function(e) {
     
     console.log('Create Account:', formData);
     alert('Account created successfully! Welcome, ' + formData.fullName);
-    window.location.href = 'index.html';
+    window.location.href = 'index.php';
 });

@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +22,7 @@
     <div class="main-content">
         <header>
             <h1>Welcome to Library Book Tracker</h1>
-            <button class="signin-btn" onclick="window.location.href='sign-in.html'">Sign In</button>
+            <button class="signin-btn" onclick="window.location.href='sign-in.php'">Sign In</button>
         </header>
 
         <section class="features">
